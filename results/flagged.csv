@@ -1,0 +1,7 @@
+file,line,kind,name,version,described,primary,category,status
+Doc/c-api/call.rst,157,function,PyVectorcall_Function,3.9,False,True,later,3.8=no;3.9=no;3.10=no;3.11=yes;3.12=yes;3.13=yes;3.14=yes;3.15=yes
+Doc/c-api/call.rst,251,function,PyObject_CallOneArg,3.9,False,True,later,3.8=no;3.9=no;3.10=no;3.11=yes;3.12=yes;3.13=yes;3.14=yes;3.15=yes
+Doc/c-api/structures.rst,186,function,Py_IS_TYPE,3.9,False,True,later,3.8=no;3.9=no;3.10=no;3.11=no;3.12=no;3.13=no;3.14=no;3.15=yes
+Doc/c-api/structures.rst,221,function,Py_SET_SIZE,3.9,False,True,later,3.8=no;3.9=no;3.10=no;3.11=no;3.12=no;3.13=no;3.14=no;3.15=yes
+Doc/c-api/threads.rst,751,function,PyUnstable_ThreadState_SetStackProtection,3.15,False,True,earlier,3.8=no;3.9=no;3.10=no;3.11=no;3.12=no;3.13=no;3.14=yes;3.15=yes
+Doc/c-api/threads.rst,761,function,PyUnstable_ThreadState_ResetStackProtection,3.15,False,True,earlier,3.8=no;3.9=no;3.10=no;3.11=no;3.12=no;3.13=no;3.14=yes;3.15=yes

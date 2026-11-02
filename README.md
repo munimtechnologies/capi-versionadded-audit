@@ -21,10 +21,18 @@ munimtechnologies/versionadded-runtime-audit.
 Run it with `python -m unittest -v`, then `python job.py --data-dir DATA --out-dir OUT`. You need
 network access and `uv`.
 
-## Status
+## Results (run 1, graded 2026-11-02)
 
-Pre-registered 2026-11-01. Results, including failed predictions, will be added under `results/`
-with a hand-checked `FIXLIST.md`.
+- The gate held. **P1 held:** 221 of 227 tested markers (97.4%) match the exported symbols.
+  **P2 failed:** 2 earlier, 4 later. **P3 failed:** 0 doc errors under the pre-registered labels.
+- The 4 "later" rows were macros or static inline functions in 3.9, exported later. The 2
+  "earlier" rows are the stack-protection functions backported to 3.14.1.
+- Reading those two rows turned up a real regression in the **3.14** docs. They now say
+  "Added in version 3.15" for functions that shipped in 3.14.1, and they lost the warning
+  about 3.14.0 incompatibility when the C API init page was split for 3.14.4. See
+  `GRADING.md` and `FIXLIST.md`, and the follow-up study
+  munimtechnologies/branch-version-notes-audit.
+- Data: `results/` (summary, all rows, flagged rows).
 
 ## Licence
 

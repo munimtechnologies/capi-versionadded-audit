@@ -1,0 +1,147 @@
+{
+ "P0_gate": {
+  "details": {
+   "PyLong_AsInt": "ok",
+   "PyLong_FromLong": "ok",
+   "PyType_GetName": "ok",
+   "Py_Initialize": "ok",
+   "Py_NewRef": "ok"
+  },
+  "verdict": "HELD"
+ },
+ "P1": {
+  "bar": 0.93,
+  "n": 227,
+  "ok": 221,
+  "share": 0.973568281938326,
+  "verdict": "held"
+ },
+ "P2": {
+  "earlier": 2,
+  "gap": 0,
+  "later": 4,
+  "verdict": "failed"
+ },
+ "P3": {
+  "bar": 2,
+  "flagged": 6,
+  "verdict": "pending hand review"
+ },
+ "categories_all_rows": {
+  "earlier": 2,
+  "later": 4,
+  "never_found": 13,
+  "not_exported_kind": 158,
+  "ok": 222,
+  "unattached": 49,
+  "untested": 144
+ },
+ "counts": {
+  "attached": 543,
+  "attached_exported_kinds": 385,
+  "described": 36,
+  "names_probed": 387,
+  "primary_before_probe": 377,
+  "rst_files": 80,
+  "versionadded_rows": 592
+ },
+ "primary_by_version": {
+  "3.10": {
+   "ok": 16
+  },
+  "3.11": {
+   "ok": 18
+  },
+  "3.12": {
+   "ok": 32
+  },
+  "3.13": {
+   "ok": 51
+  },
+  "3.14": {
+   "ok": 40
+  },
+  "3.15": {
+   "earlier": 2,
+   "ok": 43
+  },
+  "3.9": {
+   "later": 4,
+   "ok": 21
+  }
+ },
+ "source": {
+  "cpython_commit": "aa4f541a9742fa1de1008d13cbf23b2eb3799e3a",
+  "fetched_at": "2026-11-01T16:30:28Z",
+  "interpreters": {
+   "3.10": {
+    "exported_found": 148,
+    "installed": true,
+    "version": [
+     "3.10.22",
+     "final"
+    ]
+   },
+   "3.11": {
+    "exported_found": 169,
+    "installed": true,
+    "version": [
+     "3.11.18",
+     "final"
+    ]
+   },
+   "3.12": {
+    "exported_found": 206,
+    "installed": true,
+    "version": [
+     "3.12.16",
+     "final"
+    ]
+   },
+   "3.13": {
+    "exported_found": 258,
+    "installed": true,
+    "version": [
+     "3.13.18",
+     "final"
+    ]
+   },
+   "3.14": {
+    "exported_found": 302,
+    "installed": true,
+    "version": [
+     "3.14.10",
+     "final"
+    ]
+   },
+   "3.15": {
+    "exported_found": 347,
+    "installed": true,
+    "version": [
+     "3.15.2",
+     "final"
+    ]
+   },
+   "3.8": {
+    "exported_found": 111,
+    "installed": true,
+    "version": [
+     "3.8.20",
+     "final"
+    ]
+   },
+   "3.9": {
+    "exported_found": 132,
+    "installed": true,
+    "version": [
+     "3.9.25",
+     "final"
+    ]
+   }
+  },
+  "platform": "linux",
+  "tarball_sha256": "365e96baca545ce87ba340369333455cae871454f9367f6cb0b84af8c5b24b64",
+  "tarball_url": "https://codeload.github.com/python/cpython/tar.gz/refs/heads/main",
+  "uv": "uv 0.13.6 (x86_64-unknown-linux-gnu)"
+ }
+}
